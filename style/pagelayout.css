@@ -1,0 +1,49 @@
+/* this file only used if the theme is two column only theme
+
+
+
+.side-pre-only #page-content #region-main {
+    margin-left: 180px;
+}
+
+#page-content #region-pre {
+    width: 180px;
+}
+
+*/
+
+
+
+.side-post-only #page-content #region-post {
+	 width: 180px;
+	 padding-top: 6px;
+}
+
+.side-post-only #page-content #region-post-box {
+    margin-left: -180px;
+}
+
+.side-post-only #page-content #region-main {
+    margin-left: 180px;
+}
+
+.blocks-moving.side-post-only #page-content #region-main-box {left: 0;}
+.blocks-moving.side-post-only #page-content #region-post-box {margin-left: -180px;}
+.blocks-moving.side-post-only #page-content #region-main {margin-left: 180px;}
+.blocks-moving.side-post-only #page-content #region-post {width: 180px;}
+
+
+
+
+.side-pre-only #page-content #region-main-box #region-post-box #region-main-wrap #region-main {
+    padding-left: 50px;
+    padding-right: 90px;
+}
+
+#page-content #region-post-box {
+    padding-top: 0px;
+}
+
+#page-content #region-main-box .region-content {
+    padding: 0px 0 0;
+}
